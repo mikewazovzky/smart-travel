@@ -1,0 +1,133 @@
+/*
+Theme Name: Caos Child
+Description: A child theme for Caos
+Author: Mike Wazovzky
+Author URI: http://m-lab.xyz
+Template: caos
+Version: 1.0.0;
+*/
+
+
+@import url('../caos/style.css');
+
+/* Global settings */
+body {
+	color: #bbb;
+}
+
+a:hover {
+  color: #2EBF8B;
+}
+
+.post-navigation .nav-next a:hover,
+.post-navigation .nav-previous a:hover {
+  color: #2EBF8B;
+}
+
+/* Header */
+.single #header {
+	position: relative;
+}
+@media (min-width: 768px)  {
+  	.logo_container {
+    	margin-bottom: 10px;
+    	text-align: left;
+  	}
+	
+	#jqueryslidemenu {
+	  	text-align: right;
+	}
+}
+
+.branding-subtitle {
+	color: #2EBF8B;
+}
+
+#jqueryslidemenu ul.nav > li > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #2EBF8B;
+}
+
+
+/* Single Post */
+.post-content {
+  padding: 2em;
+}
+.post-content p {
+  text-align: justify;
+}
+
+@media (min-width: 1200px)  {
+	.post-content {
+  		padding: 2em;
+	}
+}
+
+.single .post {
+	font-size: 1em;
+}
+
+#respond .input-wrap {
+	float: none;
+	width: 50%;
+}
+
+/* Images */
+img {
+	max-height: 80vh;
+	display: block;
+	margin: 0 auto;	
+}
+
+.img-single {
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+.img-group {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.img-item {
+	padding: 10px;
+}
+
+/*  Таблицы со списком Viwpoints и расстояний до них */ 
+.viewpoint { 
+	border-collapse: collapse; 
+	margin: 5px auto;
+}
+.viewpoint th, td {
+	border: 1px solid #eee; 
+	padding: 0 10px 0 10px;
+}
+	
+/*  Warning! sign */ 
+.warning {
+	margin: 10px 10%;
+	background-color: red;
+	color: #fff;
+	padding: 20px 40px 5px;
+}
+.warning h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Page Contacts */
+.contacts  {
+	text-align: center;
+}
+
+/* Sidebar */
+
+#sidebar {
+	margin-top: 5em;
+}
+
+.map iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+
