@@ -3,7 +3,7 @@
 /images
 /wp-snapshots
 wp-config.php
-
+.env
 
 
 
